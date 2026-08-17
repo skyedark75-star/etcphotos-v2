@@ -1,0 +1,118 @@
+{
+  "fingerprint": "73df0a3ac0bb5b957a08b08d3bce411ee78ebe117b7341ee4ca4ec05b20494ec",
+  "sourceFolder": "porsche cayman",
+  "files": [
+    {
+      "sourceName": "car-59.jpg",
+      "filename": "porsche-cayman-010.webp",
+      "width": 2500,
+      "height": 2000,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-50.jpg",
+      "filename": "porsche-cayman-001.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-58.jpg",
+      "filename": "porsche-cayman-009.webp",
+      "width": 2500,
+      "height": 2000,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-51.jpg",
+      "filename": "porsche-cayman-002.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-52.jpg",
+      "filename": "porsche-cayman-003.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-53.jpg",
+      "filename": "porsche-cayman-004.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-54.jpg",
+      "filename": "porsche-cayman-005.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-55.jpg",
+      "filename": "porsche-cayman-006.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-56.jpg",
+      "filename": "porsche-cayman-007.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-57.jpg",
+      "filename": "porsche-cayman-008.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-60.jpg",
+      "filename": "porsche-cayman-011.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-61.jpg",
+      "filename": "porsche-cayman-012.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-62.jpg",
+      "filename": "porsche-cayman-013.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-63.jpg",
+      "filename": "porsche-cayman-014.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-64.jpg",
+      "filename": "porsche-cayman-015.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-65.jpg",
+      "filename": "porsche-cayman-016.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    }
+  ]
+}

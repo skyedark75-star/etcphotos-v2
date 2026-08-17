@@ -1,0 +1,230 @@
+{
+  "fingerprint": "4f9ff3430e5c2d0e680a1670e827d181a2e667c8489effa64e9d69515ca977c9",
+  "sourceFolder": "bmw m2",
+  "files": [
+    {
+      "sourceName": "car-73.jpg",
+      "filename": "bmw-m2-008.webp",
+      "width": 2500,
+      "height": 2000,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-66.jpg",
+      "filename": "bmw-m2-001.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-67.jpg",
+      "filename": "bmw-m2-002.webp",
+      "width": 2500,
+      "height": 2000,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-68.jpg",
+      "filename": "bmw-m2-003.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-69.jpg",
+      "filename": "bmw-m2-004.webp",
+      "width": 2500,
+      "height": 2000,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-70.jpg",
+      "filename": "bmw-m2-005.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-72.jpg",
+      "filename": "bmw-m2-007.webp",
+      "width": 2500,
+      "height": 2000,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-71.jpg",
+      "filename": "bmw-m2-006.webp",
+      "width": 1634,
+      "height": 2043,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-74.jpg",
+      "filename": "bmw-m2-009.webp",
+      "width": 2500,
+      "height": 1250,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-75.jpg",
+      "filename": "bmw-m2-010.webp",
+      "width": 2500,
+      "height": 2500,
+      "orientation": "square"
+    },
+    {
+      "sourceName": "car-76.jpg",
+      "filename": "bmw-m2-011.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-79.jpg",
+      "filename": "bmw-m2-014.webp",
+      "width": 2500,
+      "height": 2000,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-77.jpg",
+      "filename": "bmw-m2-012.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-82.jpg",
+      "filename": "bmw-m2-017.webp",
+      "width": 2500,
+      "height": 2000,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-78.jpg",
+      "filename": "bmw-m2-013.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-83.jpg",
+      "filename": "bmw-m2-018.webp",
+      "width": 2500,
+      "height": 2000,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-80.jpg",
+      "filename": "bmw-m2-015.webp",
+      "width": 1853,
+      "height": 2316,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-88.jpg",
+      "filename": "bmw-m2-023.webp",
+      "width": 2500,
+      "height": 2000,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-81.jpg",
+      "filename": "bmw-m2-016.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-89.jpg",
+      "filename": "bmw-m2-024.webp",
+      "width": 2500,
+      "height": 2000,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-84.jpg",
+      "filename": "bmw-m2-019.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-92.jpg",
+      "filename": "bmw-m2-027.webp",
+      "width": 2500,
+      "height": 2000,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-85.jpg",
+      "filename": "bmw-m2-020.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-93.jpg",
+      "filename": "bmw-m2-028.webp",
+      "width": 2500,
+      "height": 2000,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-86.jpg",
+      "filename": "bmw-m2-021.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-96.jpg",
+      "filename": "bmw-m2-031.webp",
+      "width": 2500,
+      "height": 2000,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-87.jpg",
+      "filename": "bmw-m2-022.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-90.jpg",
+      "filename": "bmw-m2-025.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-91.jpg",
+      "filename": "bmw-m2-026.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-94.jpg",
+      "filename": "bmw-m2-029.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-95.jpg",
+      "filename": "bmw-m2-030.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-97.jpg",
+      "filename": "bmw-m2-032.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    }
+  ]
+}

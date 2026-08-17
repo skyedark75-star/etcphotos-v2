@@ -1,0 +1,192 @@
+/* Global photography rule: complete image first, layout second. */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-wrap,
+.archive-card .image-wrap,
+.archive-card:nth-child(even) .image-wrap,
+.archive-card--portrait .image-wrap,
+.archive-card--landscape .image-wrap,
+.work-card .image-wrap,
+.work-card.small .image-wrap,
+.service-feature__image,
+.gallery-frame,
+.story-image {
+  height: auto !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  background: transparent;
+}
+
+.image-wrap img,
+.archive-card img,
+.work-card img,
+.service-feature__image img,
+.about-image img,
+.links-photo img,
+.gallery-frame img,
+.story-image img,
+.project-lead img {
+  width: 100%;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+/* The portrait hero is shown as a complete editorial image, never a viewport crop. */
+.home-hero {
+  min-height: 0 !important;
+  margin-top: var(--header-height);
+  grid-template-columns: minmax(0, .82fr) minmax(360px, 1.18fr);
+  align-items: stretch;
+  overflow: visible !important;
+  background: #111;
+}
+
+.home-hero-visual {
+  align-self: start;
+  height: auto;
+  background: #ececec;
+}
+
+.home-hero-media {
+  position: static !important;
+  inset: auto !important;
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+  will-change: transform;
+}
+
+.home-hero::after { display: none; }
+
+.hero-copy {
+  align-self: center;
+  padding: clamp(4rem,8vw,9rem) var(--gutter);
+  width: 100%;
+}
+
+.hero-copy h1 { font-size: clamp(4rem,7.5vw,8.6rem); }
+.hero-meta { right: var(--gutter); }
+
+/* Cards keep the structured grid while their photographs set their own height. */
+.archive-card,
+.work-card { align-self: start; }
+
+/* The statement remains cinematic without masking any part of its photograph. */
+.statement-image {
+  min-height: 0 !important;
+  overflow: visible !important;
+  display: grid;
+  background: #111;
+}
+
+.statement-image > img {
+  position: static;
+  inset: auto;
+  grid-area: 1 / 1;
+  width: 100%;
+  height: auto !important;
+  object-fit: contain !important;
+  filter: brightness(.54);
+}
+
+.statement-image > div {
+  grid-area: 1 / 1;
+  align-self: center;
+  justify-self: center;
+}
+
+.about-split { min-height: 0 !important; align-items: start; }
+.about-image { align-self: start; }
+
+.links-page { min-height: 0; align-items: start; padding-top: var(--header-height); }
+.links-photo { height: auto !important; overflow: visible !important; }
+
+.project-gallery { align-items: start; }
+.gallery-frame { align-self: start; }
+
+.lightbox img {
+  width: auto;
+  height: auto !important;
+  max-width: 100%;
+  max-height: 86vh;
+  object-fit: contain !important;
+}
+
+@media (max-width: 850px) {
+  .home-hero {
+    grid-template-columns: 1fr;
+    margin-top: var(--header-height);
+  }
+  .home-hero-visual { width: 100%; }
+  .hero-copy { padding: 4rem var(--gutter) 5rem; }
+  .work-card .image-wrap,
+  .work-card.small .image-wrap,
+  .service-feature__image,
+  .service-feature--events .service-feature__image,
+  .archive-card .image-wrap,
+  .archive-card:nth-child(even) .image-wrap,
+  .story-image,
+  .story-image:nth-child(n),
+  .gallery-frame { aspect-ratio: auto; }
+  .about-image { height: auto !important; }
+  .links-photo { height: auto !important; }
+}
+
+/* Authorised crop exception 1: homepage Porsche split-screen hero only. */
+.home-hero {
+  min-height: clamp(680px, calc(100svh - var(--header-height)), 940px) !important;
+  overflow: hidden !important;
+}
+
+.home-hero-visual {
+  align-self: stretch;
+  height: 100%;
+  overflow: hidden;
+}
+
+.home-hero .home-hero-media {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none;
+  object-fit: cover !important;
+  object-position: 52% center;
+  transform: translate3d(0,var(--hero-drift,0),0) scale(1.035);
+}
+
+/* Authorised crop exception 2: homepage BMW M2 statement hero only. */
+.statement-image {
+  position: relative;
+  min-height: min(88svh, 920px) !important;
+  overflow: hidden !important;
+}
+
+.statement-image > img {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none;
+  object-fit: cover !important;
+  object-position: center 58%;
+}
+
+.statement-image > div { position: relative; z-index: 2; }
+
+@media (max-width: 850px) {
+  .home-hero { min-height: 0 !important; overflow: visible !important; }
+  .home-hero-visual { height: clamp(520px, 72svh, 720px); overflow: hidden; }
+  .home-hero .home-hero-media { object-position: 51% center; }
+  .statement-image { min-height: clamp(560px, 76svh, 760px) !important; }
+  .statement-image > img { object-position: 56% center; }
+}
+
+@media (max-width: 500px) {
+  .home-hero-visual { height: 64svh; min-height: 480px; }
+  .home-hero .home-hero-media { object-position: 52% center; }
+  .statement-image { min-height: 68svh !important; }
+  .statement-image > img { object-position: 58% center; }
+}

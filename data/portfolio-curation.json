@@ -1,0 +1,37 @@
+{
+  "bmw-m2": {
+    "title": "BMW M2",
+    "vehicle": "BMW M2",
+    "featured": 3,
+    "cover": "bmw-m2-009.webp"
+  },
+  "cars-coffee-suffolk-2026": {
+    "title": "Cars & Coffee Suffolk 2026",
+    "event": "Cars & Coffee Suffolk 2026",
+    "location": "Suffolk",
+    "year": "2026",
+    "cover": "cars-coffee-suffolk-2026-001.webp"
+  },
+  "helmingham-hall-bridge-car-meet": {
+    "title": "Helmingham Hall Bridge Car Meet",
+    "event": "Helmingham Hall Bridge Car Meet",
+    "cover": "helmingham-hall-bridge-car-meet-010.webp"
+  },
+  "mercedes-amg-a45s": {
+    "title": "Mercedes-AMG A45 S",
+    "vehicle": "Mercedes-AMG A45 S",
+    "featured": 1,
+    "cover": "mercedes-amg-a45s-003.webp"
+  },
+  "porsche-carerra": {
+    "title": "Porsche 911 Carrera",
+    "vehicle": "Porsche 911 Carrera",
+    "featured": 2,
+    "cover": "porsche-carerra-008.webp"
+  },
+  "porsche-cayman": {
+    "title": "Porsche Cayman",
+    "vehicle": "Porsche Cayman",
+    "cover": "porsche-cayman-010.webp"
+  }
+}

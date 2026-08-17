@@ -1,0 +1,44 @@
+/* Shared project-gallery packing: natural-ratio images, consistent gutters, no row holes. */
+.project-gallery {
+  display: block;
+  columns: 3;
+  column-gap: clamp(8px, .9vw, 14px);
+  padding-inline: var(--content-inset);
+}
+
+.project-gallery .gallery-frame,
+.project-gallery .gallery-frame--landscape,
+.project-gallery .gallery-frame--portrait,
+.project-gallery .gallery-frame--square,
+.project-gallery .gallery-frame--cover {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 clamp(8px, .9vw, 14px);
+  break-inside: avoid;
+  page-break-inside: avoid;
+  vertical-align: top;
+  aspect-ratio: auto !important;
+  overflow: visible;
+}
+
+.project-gallery .gallery-frame img {
+  display: block;
+  width: 100%;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+@media (min-width: 1680px) {
+  .project-gallery { columns: 4; }
+}
+
+@media (max-width: 1050px) {
+  .project-gallery { columns: 2; }
+}
+
+@media (max-width: 620px) {
+  .project-gallery {
+    columns: 1;
+    column-gap: 0;
+  }
+}

@@ -1,0 +1,11 @@
+.archive-card .image-wrap,
+.archive-card:nth-child(even) .image-wrap,
+.archive-card--portrait .image-wrap,
+.archive-card--landscape .image-wrap {
+  aspect-ratio: var(--cover-ratio);
+}
+
+.archive-card img {
+  height: auto;
+  object-fit: contain;
+}

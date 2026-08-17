@@ -1,0 +1,83 @@
+{
+  "fingerprint": "f79a40047a9466964393f57aa33a0d1971c25f3409b40127af0e245f8ab69cf2",
+  "sourceFolder": "porsche carerra",
+  "files": [
+    {
+      "sourceName": "car-46.jpg",
+      "filename": "porsche-carerra-008.webp",
+      "width": 2500,
+      "height": 2000,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-39.jpg",
+      "filename": "porsche-carerra-001.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-40.jpg",
+      "filename": "porsche-carerra-002.webp",
+      "width": 2500,
+      "height": 2000,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-41.jpg",
+      "filename": "porsche-carerra-003.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-42.jpg",
+      "filename": "porsche-carerra-004.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-43.jpg",
+      "filename": "porsche-carerra-005.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-44.jpg",
+      "filename": "porsche-carerra-006.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-45.jpg",
+      "filename": "porsche-carerra-007.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-47.jpg",
+      "filename": "porsche-carerra-009.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-48.jpg",
+      "filename": "porsche-carerra-010.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-49.jpg",
+      "filename": "porsche-carerra-011.webp",
+      "width": 2000,
+      "height": 2500,
+      "orientation": "portrait"
+    }
+  ]
+}

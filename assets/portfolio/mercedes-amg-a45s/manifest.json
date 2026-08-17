@@ -1,0 +1,230 @@
+{
+  "fingerprint": "425ac91c99a46154e740dba1091edec038fcd53e812a35f5f356e8317f2bcbed",
+  "sourceFolder": "mercedes amg a45s",
+  "files": [
+    {
+      "sourceName": "car-12.jpg",
+      "filename": "mercedes-amg-a45s-004.webp",
+      "width": 2500,
+      "height": 2500,
+      "orientation": "square"
+    },
+    {
+      "sourceName": "car-1.jpg",
+      "filename": "mercedes-amg-a45s-001.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-11.jpg",
+      "filename": "mercedes-amg-a45s-003.webp",
+      "width": 2500,
+      "height": 1666,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-10.jpg",
+      "filename": "mercedes-amg-a45s-002.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-14.jpg",
+      "filename": "mercedes-amg-a45s-006.webp",
+      "width": 2500,
+      "height": 1666,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-13.jpg",
+      "filename": "mercedes-amg-a45s-005.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-18.jpg",
+      "filename": "mercedes-amg-a45s-010.webp",
+      "width": 2500,
+      "height": 1666,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-15.jpg",
+      "filename": "mercedes-amg-a45s-007.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-2.jpg",
+      "filename": "mercedes-amg-a45s-012.webp",
+      "width": 2500,
+      "height": 1250,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-16.jpg",
+      "filename": "mercedes-amg-a45s-008.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-24.jpg",
+      "filename": "mercedes-amg-a45s-017.webp",
+      "width": 2500,
+      "height": 1666,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-17.jpg",
+      "filename": "mercedes-amg-a45s-009.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-7.jpg",
+      "filename": "mercedes-amg-a45s-030.webp",
+      "width": 2500,
+      "height": 1250,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-19.jpg",
+      "filename": "mercedes-amg-a45s-011.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-8.jpg",
+      "filename": "mercedes-amg-a45s-031.webp",
+      "width": 2500,
+      "height": 1250,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-20.jpg",
+      "filename": "mercedes-amg-a45s-013.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-9.jpg",
+      "filename": "mercedes-amg-a45s-032.webp",
+      "width": 2500,
+      "height": 1666,
+      "orientation": "landscape"
+    },
+    {
+      "sourceName": "car-21.jpg",
+      "filename": "mercedes-amg-a45s-014.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-22.jpg",
+      "filename": "mercedes-amg-a45s-015.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-23.jpg",
+      "filename": "mercedes-amg-a45s-016.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-25.jpg",
+      "filename": "mercedes-amg-a45s-018.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-26.jpg",
+      "filename": "mercedes-amg-a45s-019.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-27.jpg",
+      "filename": "mercedes-amg-a45s-020.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-28.jpg",
+      "filename": "mercedes-amg-a45s-021.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-29.jpg",
+      "filename": "mercedes-amg-a45s-022.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-3.jpg",
+      "filename": "mercedes-amg-a45s-023.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-30.jpg",
+      "filename": "mercedes-amg-a45s-024.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-31.jpg",
+      "filename": "mercedes-amg-a45s-025.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-32.jpg",
+      "filename": "mercedes-amg-a45s-026.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-4.jpg",
+      "filename": "mercedes-amg-a45s-027.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-5.jpg",
+      "filename": "mercedes-amg-a45s-028.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    },
+    {
+      "sourceName": "car-6.jpg",
+      "filename": "mercedes-amg-a45s-029.webp",
+      "width": 1666,
+      "height": 2500,
+      "orientation": "portrait"
+    }
+  ]
+}
