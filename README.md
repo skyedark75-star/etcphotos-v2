@@ -67,6 +67,6 @@ Review canonical URLs and social preview imagery, verify final project metadata 
 
 ### Staging and the production custom domain
 
-The local `CNAME` file is intentionally ignored on the `staging` branch so a test GitHub Pages repository cannot claim `etcphotos.co.uk`. The approved production value is retained in `CNAME.production`.
+The `staging` branch intentionally excludes `CNAME` so its test deployment cannot claim `etcphotos.co.uk`. The approved production value is retained in `CNAME.production`.
 
-Only when the production deployment is approved, copy `CNAME.production` to `CNAME`, force-add that single ignored file with `git add -f CNAME`, commit it on the intended production branch, and then configure GitHub Pages and DNS deliberately.
+The `main` branch includes `CNAME` with the approved production domain. GitHub Pages and DNS configuration remain manual deployment steps and must be changed deliberately.
