@@ -20,11 +20,19 @@ def image_number(image: dict) -> int:
 
 projects = json.loads(DATA.read_text(encoding="utf-8"))
 curation = json.loads(CURATION.read_text(encoding="utf-8"))
+portfolio_order = {slug: reviewed.get("portfolioOrder", 999999) for slug, reviewed in curation.items()}
 for project in projects:
     reviewed = curation.get(project["slug"], {})
     cover_name = reviewed.pop("cover", None)
+    reviewed_order = reviewed.pop("order", None)
+    reviewed.pop("portfolioOrder", None)
     project.update(reviewed)
     gallery = sorted(project["galleryImages"], key=image_number)
+    if reviewed_order:
+        by_name = {Path(image["src"]).name: image for image in gallery}
+        if len(reviewed_order) != len(gallery) or set(reviewed_order) != set(by_name):
+            raise ValueError(f"Reviewed order for {project['slug']} must contain every gallery image exactly once")
+        gallery = [by_name[name] for name in reviewed_order]
     for image in gallery:
         image["aspectRatio"] = round(image["width"] / image["height"], 4)
     if cover_name:
@@ -36,6 +44,8 @@ for project in projects:
     project["galleryImages"] = gallery
     project["coverIndex"] = 0
     project["coverImage"] = gallery[0]
+
+projects.sort(key=lambda project: portfolio_order.get(project["slug"], 999999))
 
 DATA.write_text(json.dumps(projects, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 JS_DATA.write_text("// Generated from data/projects.json by scripts/apply_portfolio_curation.py.\nwindow.ETC_PROJECTS=" + json.dumps(projects, separators=(",", ":"), ensure_ascii=False) + ";\n", encoding="utf-8")
